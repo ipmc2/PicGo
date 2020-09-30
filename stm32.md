@@ -123,4 +123,36 @@ TR -- 卷带式包装
   | 内部低速RC振荡器   | LSI  | 40kHz   | 无            | 带校准功能 | RTC          | 成本低，温漂大 |
 
   
+内部振荡电路1
 
+
+
+![img](https://raw.githubusercontent.com/ipmc2/PicGo/master/img/2020-09-28_161131.jpg)
+
+![img](https://raw.githubusercontent.com/ipmc2/PicGo/master/img/2020-09-28_161217.jpg)
+
+
+
+
+
+##### 低功耗和ADC
+
++ 低功耗
+
+  + 睡眠、停机和待机模式
+  + V <sub>BAT</sub>为RTC和后备寄存器供电
+
++  2个12位模数转换器，1us转换时间（多达16个输入通道）
++ 转换范围：0~3.6V
+  + 双采样和保持功能
+  + 温度传感器
+
+
+
+![image-20200930171746093](https://raw.githubusercontent.com/ipmc2/PicGo/master/img/image-20200930171746093.png)
+
+
+
+![工作模式](https://raw.githubusercontent.com/ipmc2/PicGo/master/img/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F.png)
+
+###### I<sub>2</sub>C总线
